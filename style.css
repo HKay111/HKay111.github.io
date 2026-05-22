@@ -170,7 +170,7 @@ h3 {
 
 .tableauPlaceholder object {
   max-width: 100%;
-  width: 100% !important;
+  width: auto !important;
   height: auto !important;
 }
 
@@ -245,6 +245,23 @@ h3 {
   background: #000;
   color: #fff;
   text-decoration: none;
+}
+
+.contact-section {
+  text-align: center;
+  margin: 0.2in 0.5in;
+  padding: 0.2in 0.5in;
+  border-top: 0.5pt solid #ddd;
+  width: calc(100% - 1in);
+  font-size: 10pt;
+}
+
+.contact-section a {
+  color: #0000EE;
+}
+
+.contact-section a:hover {
+  text-decoration: underline;
 }
 
 .nav {
