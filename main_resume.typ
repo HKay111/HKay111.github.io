@@ -1,6 +1,6 @@
-#set page(paper: "us-letter", margin: (x: 1cm, y: 1.6cm))
+#set page(paper: "a4", margin: (x: 0.85cm, y: 1.6cm))
 #set text(font: ("New Computer Modern"), size: 10.75pt)
-#set par(justify: true, leading: 0.65em, spacing: 1.15em)
+#set par(justify: true, leading: 0.65em, spacing: 1.2em)
 #show link: set text(fill: blue)
 
 #let section(title) = [
@@ -24,7 +24,7 @@
 
 #align(center)[
   #text(size: 17pt, weight: "bold")[HRIDAYAM KAPILA] \
-  (+91) 8595539366 $dot$ #link("mailto:kapilahridayam@gmail.com")[kapilahridayam\@gmail.com] $dot$ #link("https://www.linkedin.com/in/hridayam-kapila-323987266/")[LinkedIn]
+  (+91) 8595539366 $dot$ #link("mailto:kapilahridayam@gmail.com")[kapilahridayam\@gmail.com] $dot$ #link("https://www.linkedin.com/in/hridayam-kapila-323987266/")[LinkedIn] $dot$ #link("https://hkay111.github.io/")[GitHub]
 ]
 
 #section("Education")
@@ -36,11 +36,11 @@
 #pad(left:10pt)[Environmental Economics, Ecological Economics, Climate Change, Applied Microeconomics, Applied Econometrics.]
 
 #section("Research Experience")
-#entry([Undergraduate Thesis: _Carbon Emissions in Africa: EKC and Regional Integration_],
-[2025 - 2026],
-[*Supervisor*: _Prof. Deepika Goel_ 
+#entry([Undergraduate Thesis],
+[Aug 2025 - May 2026],
+[*_Carbon Emissions in Africa: EKC and Regional Integration_* #h(1fr) *Supervisor*: _Prof. Deepika Goel_ \
 - Scored Outstanding (10/10 for both semesters)
-- Presented at UGREE 2026])
+- Presented at Undergraduate Research and Entrepreneurship Exhibition (UGREE), 2026 (organized by University of Delhi)])
 
 #section("Work Experience")
 #entry([Mutual Funds Distributor (Self-Employed), Delhi, India],
@@ -62,11 +62,11 @@
 
 #section("Position of Responsibility")
 #entry([Co-Founder & VP, Placement Unit (Economics Dept.), Aryabhatta College], [Sept 2025 - Apr 2026],
-[Establishing and leading the unit to connect economics students with internship and career opportunities.])
+[Established and lead the unit to connect economics students with internship and career opportunities.])
 
 #entry([Advisory, Mind Over Matter (Economics Society), Aryabhatta College],
 [Aug 2025 - Apr 2026],
-[Provide strategic guidance and mentorship to the current editorial board.])
+[Provided strategic guidance and mentorship to the editorial board.])
 
 #entry([Editor-in-Chief, Mind Over Matter (Economics Society), Aryabhatta College],
 [Oct 2024 - Aug 2025],
