@@ -1,7 +1,7 @@
 #!/bin/bash
 # update-pdf.sh — Update CV PDF on hkay111.github.io
 # Usage: ./update-pdf.sh [path-to-pdf]
-#        If no path given, uses default main_resume.pdf in the resume dir
+#        If no path given, uses default main_resume.pdf
 
 DEFAULT_SOURCE="$HOME/Documents/PG/Resume/main_resume.pdf"
 SOURCE="${1:-$DEFAULT_SOURCE}"
