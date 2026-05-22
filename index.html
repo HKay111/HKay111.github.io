@@ -3,304 +3,140 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hridayam Kapila — CV</title>
+  <title>Hridayam Kapila — Academic Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Computer+Modern+Serif&display=swap" rel="stylesheet">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: "Computer Modern Serif", "New Computer Modern", serif;
-      font-size: 10.75pt;
-      line-height: 1.4;
-      max-width: 7.5in;
-      margin: 0 auto;
-      padding: 0.6in 0.5in;
-      color: #000;
-      background: #fff;
-    }
-
-    a {
-      color: #0000EE;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .header {
-      text-align: center;
-      margin-bottom: 0.15in;
-    }
-
-    .header h1 {
-      font-size: 16pt;
-      font-weight: bold;
-      letter-spacing: 0.05em;
-      margin-bottom: 0.05in;
-    }
-
-    .header .contact {
-      font-size: 10pt;
-    }
-
-    .header .contact span {
-      margin: 0 0.08in;
-      color: #555;
-    }
-
-    .section {
-      margin-top: 0.12in;
-    }
-
-    .section-title {
-      font-size: 11pt;
-      font-weight: bold;
-      text-transform: uppercase;
-      letter-spacing: 0.04em;
-      border-bottom: 0.5pt solid #000;
-      margin-bottom: 0.04in;
-    }
-
-    .entry {
-      margin-bottom: 0.06in;
-      padding-left: 0.1in;
-    }
-
-    .entry-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-      margin-bottom: 0.01in;
-    }
-
-    .entry-title {
-      font-weight: bold;
-    }
-
-    .entry-meta {
-      font-style: italic;
-      font-size: 10pt;
-      white-space: nowrap;
-    }
-
-    .entry-body {
-      padding-left: 0.1in;
-    }
-
-    .entry-body p {
-      margin: 0;
-    }
-
-    .entry-sub {
-      font-style: italic;
-    }
-
-    .entry ul {
-      list-style: none;
-      padding-left: 0.1in;
-    }
-
-    .entry ul li::before {
-      content: "— ";
-    }
-
-    .courses {
-      margin-top: 0.02in;
-      padding-left: 0.1in;
-      font-size: 10pt;
-    }
-
-    .course-item {
-      display: inline;
-    }
-
-    .course-item::after {
-      content: ", ";
-    }
-
-    .course-item:last-child::after {
-      content: "";
-    }
-
-    .skills-list {
-      padding-left: 0.1in;
-      font-size: 10pt;
-    }
-
-    .skills-list strong {
-      font-weight: bold;
-    }
-
-    @media print {
-      body {
-        padding: 0;
-        max-width: none;
-        font-size: 10pt;
-      }
-
-      .section {
-        page-break-inside: avoid;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div class="header">
-    <h1>HRIDAYAM KAPILA</h1>
-    <div class="contact">
-      <span>(+91) 8595539366</span>
-      <span>·</span>
-      <a href="mailto:kapilahridayam@gmail.com">kapilahridayam@gmail.com</a>
-      <span>·</span>
-      <a href="https://www.linkedin.com/in/hridayam-kapila-323987266/">LinkedIn</a>
-    </div>
-  </div>
+  <nav class="nav">
+    <a href="#home">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#about">About</a>
+    <a href="cv.html">CV</a>
+  </nav>
 
-  <div class="section">
-    <div class="section-title">Education</div>
-    <div class="entry">
-      <div class="entry-header">
-        <span class="entry-title">Aryabhatta College, University of Delhi</span>
-        <span class="entry-meta">2026</span>
+  <section id="home">
+    <div class="header">
+      <h1>HRIDAYAM KAPILA</h1>
+      <div class="contact-line">
+        <span>(+91) 8595539366</span>
+        <span>·</span>
+        <a href="mailto:kapilahridayam@gmail.com">kapilahridayam@gmail.com</a>
+        <span>·</span>
+        <a href="https://www.linkedin.com/in/hridayam-kapila-323987266/">LinkedIn</a>
+        <span>·</span>
+        <a href="https://github.com/HKay111">GitHub</a>
       </div>
-      <div class="entry-body">
-        <p>Bachelor's Degree in Economics, Minor in Mathematics</p>
-        <p class="entry-sub">GPA: First Class with Distinction</p>
-        <p class="courses">
-          <span class="course-item">Environmental Economics</span>
-          <span class="course-item">Advanced Econometrics</span>
-          <span class="course-item">Introduction to Causal Inference</span>
-          <span class="course-item">Forecasting Methods for Economics</span>
+    </div>
+
+    <h2>Introduction</h2>
+    <p class="bio">
+      I'm an Econ student at Aryabhatta College, exploring Environmental Economics, Applied Econometrics and their impact on environmental outcomes. My thesis examines the existence of a long-term relationship between Carbon Emissions and Regional Integration for Africa, in hopes of understanding the pathway that Africa can take to integrate and develop.
+    </p>
+
+    <div class="thesis-block">
+      <p class="thesis-title">Undergraduate Thesis: Carbon Emissions in Africa: EKC and Regional Integration</p>
+      <div class="thesis-body">
+        <p>
+          This thesis examines two interconnected questions using a panel of nine African countries — Algeria, Kenya, Mauritius, Morocco, Mozambique, Namibia, Nigeria, South Africa, and Zambia — from 2006 to 2022.
         </p>
+        <p>
+          <strong>Main Paper:</strong> Investigates the impact of regional integration on carbon emissions through regional value chains, environmental co-operation, and institutional integration. Using the Fully Modified OLS estimator (accounting for cross-sectional dependence, non-stationarity, and endogeneity), the study finds co-integration relationships and shows that trade openness and regional value chains increase consumption-based emissions — suggesting that in lower-income and developing economies, people purchase goods and merchandise despite the environmental impact to meet consumption needs. Environmental Co-operation and institutional integration reduce emissions, reinforcing that better co-operation between countries and their governments helps combat pollution. The study also finds a significant negative effect of the government effectiveness indicator on emissions, indicating that effective government intervention reduces pollution.
+        </p>
+        <p>
+          <strong>Side Paper:</strong> Examines the Environmental Kuznets Curve (EKC) across the same countries. Contrary to the conventional inverted-U EKC hypothesis, findings indicate a U-shaped relationship — carbon emissions per capita first decline with rising income, then increase beyond a certain threshold. Energy use per capita shows approximately one-to-one elasticity with carbon emissions per capita, suggesting a strong reliance on carbon-intensive energy sources. Both papers employ the group-mean FMOLS estimator and confirm the presence of long-run cointegrating relationships with slope heterogeneity.
+        </p>
+        <p class="thesis-sub">Supervisor: Prof. Deepika Goel &nbsp;|&nbsp; Defended &nbsp;|&nbsp; Presented at UGREE 2026 (University of Delhi, April 22–23, 2026)</p>
       </div>
     </div>
-  </div>
 
-  <div class="section">
-    <div class="section-title">Research Interests</div>
-    <div class="entry">
-      <p style="padding-left:0.1in;">Environmental Economics, Ecological Economics, Climate Change, Applied Microeconomics, Applied Econometrics.</p>
+    <div class="quick-links">
+      <a href="https://github.com/HKay111">GitHub</a>
+      <a href="https://www.linkedin.com/in/hridayam-kapila-323987266/">LinkedIn</a>
+      <a href="cv.html">Download CV (PDF)</a>
     </div>
-  </div>
+  </section>
 
-  <div class="section">
-    <div class="section-title">Research Experience</div>
-    <div class="entry">
-      <div class="entry-header">
-        <span class="entry-title">Undergraduate Thesis: <em>Carbon Emissions in Africa: EKC and Regional Integration</em></span>
-      </div>
-      <div class="entry-body">
-        <p class="entry-sub">Prof. Deepika Goel &nbsp;|&nbsp; Defended &nbsp;|&nbsp; Presented at UGREE 2026 (University of Delhi, April 22–23, 2026)</p>
-      </div>
-    </div>
-  </div>
+  <section id="projects">
+    <h2>Projects</h2>
 
-  <div class="section">
-    <div class="section-title">Work Experience</div>
-    <div class="entry">
-      <div class="entry-header">
-        <span class="entry-title">Mutual Funds Distributor (Self-Employed), Delhi, India</span>
-        <span class="entry-meta">May 2024 – Present</span>
+    <div class="project-entry">
+      <div class="project-header">
+        <span class="project-title">VAR Modeling of Macroeconomic Data (R)</span>
+        <a href="https://github.com/HKay111/Macroeconomic-Analysis-R" class="project-link">GitHub ↗</a>
       </div>
-      <div class="entry-body">
-        <p>Advise clients on mutual fund investments based on financial goals & risk assessment.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="section">
-    <div class="section-title">Projects</div>
-    <div class="entry">
-      <div class="entry-header">
-        <span class="entry-title">VAR Modeling of Macroeconomic Data (R)</span>
-      </div>
-      <div class="entry-body">
-        <p><a href="https://github.com/HKay111/Macroeconomic-Analysis-R">GitHub</a> — Modeled short-run dynamics between exchange rate, inflation, & output gap using a Vector Autoregression (VAR) model with robust inference.</p>
-      </div>
-    </div>
-    <div class="entry">
-      <div class="entry-header">
-        <span class="entry-title">Econometric Analysis of INR and Exchange Rate (R)</span>
-      </div>
-      <div class="entry-body">
-        <p><a href="https://github.com/HKay111/IGD-Project">GitHub</a> — Investigated CPI & Output Gap impact on INR exchange rate using R time series models; analyzed policy implications.</p>
-      </div>
-    </div>
-    <div class="entry">
-      <div class="entry-header">
-        <span class="entry-title">QS Rankings Analysis (Tableau)</span>
-      </div>
-      <div class="entry-body">
-        <p><a href="https://public.tableau.com/app/profile/hridayam.kapila/vizzes">Tableau Public</a> — Created interactive dashboard visualizing & analyzing university ranking data.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="section">
-    <div class="section-title">Position of Responsibility</div>
-    <div class="entry">
-      <div class="entry-header">
-        <span class="entry-title">Co-Founder & VP, Placement Unit (Economics Dept.), Aryabhatta College</span>
-        <span class="entry-meta">Sept 2025 – Apr 2026</span>
-      </div>
-      <div class="entry-body">
-        <p>Establishing and leading the unit to connect economics students with internship and career opportunities.</p>
-      </div>
-    </div>
-    <div class="entry">
-      <div class="entry-header">
-        <span class="entry-title">Advisory, Mind Over Matter (Economics Society), Aryabhatta College</span>
-        <span class="entry-meta">Aug 2025 – Apr 2026</span>
-      </div>
-      <div class="entry-body">
-        <p>Provide strategic guidance and mentorship to the current editorial board.</p>
-      </div>
-    </div>
-    <div class="entry">
-      <div class="entry-header">
-        <span class="entry-title">Editor-in-Chief, Mind Over Matter (Economics Society), Aryabhatta College</span>
-        <span class="entry-meta">Oct 2024 – Aug 2025</span>
-      </div>
-      <div class="entry-body">
-        <p>Led the editorial team, managing content strategy, publication processes, and project communications.</p>
-      </div>
-    </div>
-    <div class="entry">
-      <div class="entry-header">
-        <span class="entry-title">Social Media Manager, Arahata (B.A. Programme Society), Aryabhatta College</span>
-        <span class="entry-meta">Nov 2024 – May 2025</span>
-      </div>
-      <div class="entry-body">
-        <p>Manage society's online presence & communication strategies to enhance outreach & engagement.</p>
-      </div>
-    </div>
-    <div class="entry">
-      <div class="entry-header">
-        <span class="entry-title">Treasurer, Arahata (B.A. Programme Society), Aryabhatta College</span>
-        <span class="entry-meta">Oct 2023 – Oct 2024</span>
-      </div>
-      <div class="entry-body">
-        <p>Managed society finances: budget planning, fund allocation, expense tracking, & financial records.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="section">
-    <div class="section-title">Skills</div>
-    <div class="entry">
-      <p class="skills-list">
-        <strong>Languages:</strong> Hindi (Native), English (Fluent) &nbsp;&nbsp;
-        <strong>Technical Skills:</strong> R, STATA, EViews, Tableau, LaTeX, Git/GitHub, Excel, Typst.
+      <p class="project-desc">
+        Modeled short-run dynamics between exchange rate, inflation, and output gap using a Vector Autoregression (VAR) model with robust inference. This is strictly a coding exercise and may have mistakes.
       </p>
     </div>
+
+    <div class="project-entry">
+      <div class="project-header">
+        <span class="project-title">Econometric Analysis of INR and Exchange Rate (R)</span>
+        <a href="https://github.com/HKay111/IGD-Project" class="project-link">GitHub ↗</a>
+      </div>
+      <p class="project-desc">
+        Investigated CPI and Output Gap impact on INR exchange rate using R time series models; analyzed policy implications.
+      </p>
+    </div>
+
+    <div class="project-entry">
+      <div class="project-header">
+        <span class="project-title">QS Rankings Analysis (Tableau)</span>
+        <a href="https://public.tableau.com/app/profile/hridayam.kapila/vizzes" class="project-link">Tableau Public ↗</a>
+      </div>
+      <p class="project-desc">
+        Interactive dashboard visualizing and analyzing university ranking data.
+      </p>
+      <div class="tableau-container">
+        <iframe src="https://public.tableau.com/views/QSWorldUniversityRankings2025/Overview?:embed=yes&amp;:showVizHome=no&amp;:tabs=yes&amp;:toolbar=no&amp;:animate=yes" scrolling="no"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+
+    <div class="about-grid">
+      <div class="about-item">
+        <strong>Current Position</strong>
+        Final Year, Bachelor's in Economics (Minor in Mathematics)<br>
+        Aryabhatta College, University of Delhi
+      </div>
+      <div class="about-item">
+        <strong>Next Steps</strong>
+        Masters in Economics, then PhD in Environmental/Applied Economics
+      </div>
+      <div class="about-item">
+        <strong>Research Interests</strong>
+        Environmental Economics, Ecological Economics, Climate Change, Applied Microeconomics, Applied Econometrics
+      </div>
+      <div class="about-item">
+        <strong>Thesis Supervisor</strong>
+        Prof. Deepika Goel
+      </div>
+    </div>
+
+    <div class="about-text">
+      My research sits at the intersection of environmental and development economics, with a focus on how trade, integration, and policy affect environmental outcomes in developing economies — particularly Africa. My thesis applies panel time-series methods to study co-integration between regional integration and carbon emissions, finding that while trade openness increases emissions, stronger environmental co-operation and institutional integration reduce them. The EKC analysis reveals a U-shaped relationship, suggesting African countries may face growing emissions pressure as income rises unless structural changes in the energy mix are made.
+    </div>
+
+    <div class="about-text">
+      Currently exploring advanced econometric techniques and causal inference methods to deepen my empirical toolkit. Looking to contribute to research on sustainable development, climate policy, and the economics of environmental change.
+    </div>
+
+    <div class="skills-row">
+      <strong>Skills:</strong> R, STATA, EViews, Tableau, LaTeX, Git/GitHub, Excel, Typst &nbsp;|&nbsp;
+      <strong>Languages:</strong> Hindi (Native), English (Fluent)
+    </div>
+  </section>
+
+  <div class="cv-section">
+    <p>Full academic CV available as PDF.</p>
+    <a href="cv.html" class="cv-button">Download CV →</a>
   </div>
 
 </body>

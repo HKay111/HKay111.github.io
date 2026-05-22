@@ -1,0 +1,311 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Computer Modern Serif", "New Computer Modern", serif;
+  font-size: 11pt;
+  line-height: 1.65;
+  color: #000;
+  background: #fff;
+  max-width: 7.5in;
+  margin: 0 auto;
+  padding: 0.8in 0.6in;
+}
+
+a {
+  color: #0000EE;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #551A8B;
+}
+
+h1 {
+  font-size: 18pt;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 0.05in;
+}
+
+h2 {
+  font-size: 11pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 0.5pt solid #000;
+  padding-bottom: 0.03in;
+  margin: 0.35in 0 0.12in 0;
+}
+
+h3 {
+  font-size: 11pt;
+  font-weight: bold;
+  margin-bottom: 0.04in;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 0.3in;
+}
+
+.contact-line {
+  font-size: 10pt;
+  color: #333;
+}
+
+.contact-line span {
+  margin: 0 0.08in;
+}
+
+.contact-line a {
+  color: #0000EE;
+}
+
+.bio {
+  text-align: justify;
+  margin: 0.15in 0;
+  font-size: 11pt;
+  line-height: 1.7;
+}
+
+.thesis-block {
+  margin: 0.15in 0;
+}
+
+.thesis-title {
+  font-weight: bold;
+  font-size: 11pt;
+  margin-bottom: 0.06in;
+}
+
+.thesis-body {
+  padding-left: 0.1in;
+  border-left: 2pt solid #ccc;
+  padding-left: 0.12in;
+}
+
+.thesis-body p {
+  margin-bottom: 0.08in;
+  text-align: justify;
+  font-size: 10.5pt;
+  line-height: 1.6;
+}
+
+.thesis-body p:last-child {
+  margin-bottom: 0;
+}
+
+.thesis-sub {
+  font-style: italic;
+  margin-bottom: 0.1in;
+  font-size: 10.5pt;
+}
+
+.section-divider {
+  border-top: 0.5pt solid #ddd;
+  margin: 0.1in 0;
+}
+
+.quick-links {
+  text-align: center;
+  margin: 0.15in 0;
+  font-size: 10pt;
+}
+
+.quick-links a {
+  margin: 0 0.1in;
+}
+
+.quick-links a::after {
+  content: " ↗";
+  font-size: 0.85em;
+}
+
+.project-entry {
+  margin: 0.15in 0;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.05in;
+}
+
+.project-title {
+  font-weight: bold;
+  font-size: 10.5pt;
+}
+
+.project-link {
+  font-size: 9.5pt;
+  white-space: nowrap;
+}
+
+.project-desc {
+  margin-top: 0.03in;
+  font-size: 10.5pt;
+  text-align: justify;
+  line-height: 1.55;
+}
+
+.tableau-container {
+  margin-top: 0.1in;
+  max-width: 100%;
+}
+
+.tableau-container iframe {
+  width: 100%;
+  height: 450px;
+  border: 0.5pt solid #ccc;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.2in 0.3in;
+  margin: 0.15in 0;
+}
+
+.about-item {
+  font-size: 10.5pt;
+}
+
+.about-item strong {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.02in;
+}
+
+.about-item span {
+  font-style: italic;
+}
+
+.about-text {
+  margin: 0.12in 0;
+  font-size: 10.5pt;
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.skills-row {
+  margin-top: 0.1in;
+  font-size: 10.5pt;
+}
+
+.skills-row strong {
+  font-weight: bold;
+}
+
+.cv-section {
+  text-align: center;
+  margin: 0.2in 0;
+  padding: 0.2in 0;
+  border-top: 0.5pt solid #ddd;
+}
+
+.cv-section p {
+  font-size: 10.5pt;
+  margin-bottom: 0.1in;
+}
+
+.cv-button {
+  display: inline-block;
+  padding: 0.08in 0.25in;
+  border: 0.5pt solid #000;
+  font-size: 10pt;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+  transition: background 0.15s, color 0.15s;
+}
+
+.cv-button:hover {
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav {
+  text-align: center;
+  margin: 0.25in 0 0.2in 0;
+  font-size: 9.5pt;
+  letter-spacing: 0.03em;
+}
+
+.nav a {
+  color: #555;
+  margin: 0 0.12in;
+}
+
+.nav a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.nav a::before {
+  content: "[";
+  color: #aaa;
+}
+
+.nav a::after {
+  content: "]";
+  color: #aaa;
+}
+
+.section-anchor {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
+}
+
+@media print {
+  body {
+    padding: 0;
+    max-width: none;
+    font-size: 10pt;
+  }
+
+  .nav,
+  .cv-button {
+    display: none;
+  }
+
+  .tableau-container iframe {
+    height: 300px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 0.4in 0.3in;
+    font-size: 10.5pt;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-header {
+    flex-direction: column;
+  }
+
+  .tableau-container iframe {
+    height: 300px;
+  }
+}
