@@ -39,8 +39,9 @@
 #entry([Undergraduate Thesis],
 [Aug 2025 - May 2026],
 [*_Carbon Emissions in Africa: EKC and Regional Integration_* #h(1fr) *Supervisor*: _Prof. Deepika Goel_ \
+This thesis examines the existence of a long-term relationship between Carbon Emissions and Regional Integration for Africa, in hopes of understanding the pathway that Africa can take to integrate and develop. \
 - Scored Outstanding (10/10 for both semesters)
-- Presented at Undergraduate Research and Entrepreneurship Exhibition (UGREE), 2026 (organized by University of Delhi)])
+- Presented at Undergraduate Research and Entrepreneurship Exhibition (UGREE), 2026 (University of Delhi)])
 
 #section("Work Experience")
 #entry([Mutual Funds Distributor (Self-Employed), Delhi, India],
