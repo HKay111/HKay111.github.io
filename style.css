@@ -138,11 +138,11 @@ h3 {
 }
 
 .skills-row {
+  text-align: justify;
   margin: 0.1in 0.5in;
   padding: 0 0.5in;
   font-size: 10.5pt;
   width: calc(100% - 1in);
-  text-align: justify;
 }
 
 .skills-row strong {
