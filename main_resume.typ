@@ -24,7 +24,8 @@
 
 #align(center)[
   #text(size: 17pt, weight: "bold")[HRIDAYAM KAPILA] \
-  #link("mailto:kapilahridayam@gmail.com")[kapilahridayam\@gmail.com] $dot$ #link("https://www.linkedin.com/in/hridayam-kapila-323987266/")[LinkedIn] $dot$ #link("https://hkay111.github.io/")[GitHub]
+  #link("mailto:kapilahridayam@gmail.com")[kapilahridayam\@gmail.com] $dot$ #link("https://www.linkedin.com/in/hridayam-kapila-323987266/")[LinkedIn] $dot$ #link("https://hkay111.github.io/")[Website] \
+*ORCID*: 0009-0006-8532-163X
 ]
 
 #section("Education")

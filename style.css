@@ -208,7 +208,13 @@ h3 {
   .project-entry,
   .skills-row,
   .cv-section,
-  .contact-section {
+.orcid-line {
+  font-size: 9.5pt;
+  margin-top: 0.1in;
+  margin-bottom: 0;
+}
+
+.contact-section {
     margin-left: 0.2in;
     margin-right: 0.2in;
     padding-left: 0;
