@@ -41,7 +41,7 @@
 [*_Carbon Emissions in Africa: EKC and Regional Integration_* #h(1fr) *Supervisor*: _Prof. Deepika Goel_ \
 This thesis examines the existence of a long-term relationship between Carbon Emissions and Regional Integration for Africa, an empirical effort to map out sustainable developmental and collaborative pathways for the continent. \
 - Scored Outstanding (10/10 for both semesters)
-- Presented at Undergraduate Research and Entrepreneurship Exhibition (UGREE), 2026 (University of Delhi)])
+- Presented at Undergraduate Research and Entrepreneurship Exhibition 2026 (UGREE 2026, University of Delhi)])
 
 #section("Work Experience")
 #entry([Mutual Funds Distributor (Self-Employed), Delhi, India],
