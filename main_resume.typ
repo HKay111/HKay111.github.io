@@ -24,7 +24,7 @@
 
 #align(center)[
   #text(size: 17pt, weight: "bold")[HRIDAYAM KAPILA] \
-  (+91) 8595539366 $dot$ #link("mailto:kapilahridayam@gmail.com")[kapilahridayam\@gmail.com] $dot$ #link("https://www.linkedin.com/in/hridayam-kapila-323987266/")[LinkedIn] $dot$ #link("https://hkay111.github.io/")[GitHub]
+  #link("mailto:kapilahridayam@gmail.com")[kapilahridayam\@gmail.com] $dot$ #link("https://www.linkedin.com/in/hridayam-kapila-323987266/")[LinkedIn] $dot$ #link("https://hkay111.github.io/")[GitHub]
 ]
 
 #section("Education")

@@ -1,0 +1,10 @@
+.DS_Store
+build/
+.texpadtmp/
+texput.log
+*.fdb_latexmk
+*.synctex.gz
+*.fls
+*.aux
+*.out
+*.log

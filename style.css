@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: "Computer Modern Serif", "New Computer Modern", serif;
+  font-family: "Libre Baskerville", Georgia, serif;
   font-size: 11pt;
   line-height: 1.65;
   color: #000;
@@ -62,15 +62,6 @@ h3 {
   padding: 0 0.5in;
 }
 
-.contact-line {
-  font-size: 10pt;
-  color: #333;
-}
-
-.contact-line a {
-  color: #0000EE;
-}
-
 .bio {
   text-align: justify;
   margin: 0.15in 0.5in;
@@ -112,22 +103,6 @@ h3 {
   font-size: 10.5pt;
 }
 
-.quick-links {
-  text-align: center;
-  margin: 0.15in 0;
-  font-size: 10pt;
-  padding: 0 0.5in;
-}
-
-.quick-links a {
-  margin: 0 0.1in;
-}
-
-.quick-links a::after {
-  content: " ↗";
-  font-size: 0.85em;
-}
-
 .project-entry {
   margin: 0.15in 0.5in;
   padding: 0 0.5in;
@@ -160,69 +135,6 @@ h3 {
 
 #projects {
   width: 100%;
-}
-
-.tableauPlaceholder {
-  margin: 0.15in 0.5in;
-  max-width: 100%;
-  overflow: hidden;
-}
-
-.tableauPlaceholder object {
-  max-width: 100%;
-  width: auto !important;
-  height: auto !important;
-}
-
-.about-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.2in 0.3in;
-  margin: 0.15in 0.5in;
-  padding: 0 0.5in;
-  width: calc(100% - 1in);
-}
-
-.about-item {
-  font-size: 10.5pt;
-}
-
-.about-item strong {
-  display: block;
-  font-weight: bold;
-  margin-bottom: 0.02in;
-}
-
-.about-item span {
-  font-style: italic;
-}
-
-.about-text {
-  margin: 0.12in 0.5in;
-  padding: 0 0.5in;
-  font-size: 10.5pt;
-  text-align: justify;
-  line-height: 1.6;
-  width: calc(100% - 1in);
-}
-
-.coursework-row {
-  margin: 0.1in 0.5in;
-  padding: 0 0.5in;
-  font-size: 10.5pt;
-  width: calc(100% - 1in);
-}
-
-.coursework-row strong {
-  font-weight: bold;
-}
-
-.phd-line {
-  margin: 0.12in 0.5in;
-  padding: 0 0.5in;
-  font-size: 10.5pt;
-  font-style: italic;
-  width: calc(100% - 1in);
 }
 
 .skills-row {
@@ -270,64 +182,8 @@ h3 {
   text-align: center;
   margin: 0.2in 0.5in;
   padding: 0.2in 0.5in;
-  border-top: 0.5pt solid #ddd;
   width: calc(100% - 1in);
   font-size: 10pt;
-}
-
-.contact-section a {
-  color: #0000EE;
-}
-
-.contact-section a:hover {
-  text-decoration: underline;
-}
-
-.nav {
-  text-align: center;
-  margin: 0.25in 0 0.2in 0;
-  padding: 0 0.5in;
-  font-size: 9.5pt;
-  letter-spacing: 0.03em;
-  width: 100%;
-}
-
-.nav a {
-  color: #555;
-  margin: 0 0.12in;
-}
-
-.nav a:hover {
-  color: #000;
-  text-decoration: none;
-}
-
-.nav a::before {
-  content: "[";
-  color: #aaa;
-}
-
-.nav a::after {
-  content: "]";
-  color: #aaa;
-}
-
-#home,
-#projects,
-#about {
-  width: 100%;
-}
-
-#cv {
-  width: 100%;
-  max-width: 100%;
-}
-
-.section-anchor {
-  display: block;
-  visibility: hidden;
-  height: 0;
-  overflow: hidden;
 }
 
 @media print {
@@ -335,7 +191,6 @@ h3 {
     padding: 0;
   }
 
-  .nav,
   .cv-button {
     display: none;
   }
@@ -351,20 +206,14 @@ h3 {
   .bio,
   .thesis-block,
   .project-entry,
-  .tableauPlaceholder,
-  .about-grid,
-  .about-text,
   .skills-row,
-  .cv-section {
+  .cv-section,
+  .contact-section {
     margin-left: 0.2in;
     margin-right: 0.2in;
     padding-left: 0;
     padding-right: 0;
     width: calc(100% - 0.4in);
-  }
-
-  .about-grid {
-    grid-template-columns: 1fr;
   }
 
   .project-header {
