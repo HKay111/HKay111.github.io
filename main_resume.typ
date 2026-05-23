@@ -29,7 +29,7 @@
 
 #section("Education")
 #entry([Aryabhatta College, University of Delhi],
-[2026],
+[2022–2026],
 [Bachelor's Degree in Economics, Minor in Mathematics #h(1fr) *GPA:* _First Class with Distinction_])
 
 #section("Research Interests")
@@ -51,7 +51,7 @@ This thesis examines the existence of a long-term relationship between Carbon Em
 #section("Projects")
 #entry([VAR Modeling of Macroeconomic Data (R) (#link("https://github.com/HKay111/Macroeconomic-Analysis-R")[GitHub])],
 [],
-[Modeled short-run dynamics between exchange rate, inflation, & output gap using a Vector Autoregression (VAR) model with robust inference. This is strictly a coding exercise and may have mistakes.])
+[Modeled short-run dynamics between exchange rate, inflation, & output gap using a Vector Autoregression (VAR) model with robust inference.])
 
 #entry([Econometric Analysis of INR and Exchange Rate (R) (#link("https://github.com/HKay111/IGD-Project")[GitHub])],
 [],
@@ -63,7 +63,7 @@ This thesis examines the existence of a long-term relationship between Carbon Em
 
 #section("Position of Responsibility")
 #entry([Co-Founder & VP, Placement Unit (Economics Dept.), Aryabhatta College], [Sept 2025 - Apr 2026],
-[Established and lead the unit to connect economics students with internship and career opportunities.])
+[Established and led the unit to connect economics students with internship and career opportunities.])
 
 #entry([Advisory, Mind Over Matter (Economics Society), Aryabhatta College],
 [Aug 2025 - Apr 2026],
@@ -75,7 +75,7 @@ This thesis examines the existence of a long-term relationship between Carbon Em
 
 #entry([Social Media Manager, Arahata (B.A. Programme Society), Aryabhatta College],
 [Nov 2024 - May 2025],
-[Manage society's online presence & communication strategies to enhance outreach & engagement.])
+[Managed society's online presence & communication strategies to enhance outreach & engagement.])
 
 #entry([Treasurer, Arahata (B.A. Programme Society), Aryabhatta College],
 [Oct 2023 - Oct 2024],
