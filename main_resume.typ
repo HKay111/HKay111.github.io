@@ -12,7 +12,7 @@
 ]
 
 #let entry(ltext, rtext, body) = [
-  #pad(left:10pt)[
+  #pad(left:10pt, right:1pt)[
     #if rtext == [] [
       #strong(ltext) \
     ] else [
@@ -34,15 +34,15 @@
 [Bachelor's Degree in Economics, Minor in Mathematics #h(1fr) *GPA:* _First Class with Distinction_])
 
 #section("Research Interests")
-#pad(left:10pt)[Environmental Economics, Ecological Economics, Climate Change, Applied Microeconomics, Applied Econometrics.]
+#pad(left:10pt, right:5pt)[Environmental Economics, Ecological Economics, Climate Change, Applied Econometrics, Microeconometrics.]
 
 #section("Research Experience")
 #entry([Undergraduate Thesis],
 [Aug 2025 - May 2026],
 [*_Carbon Emissions in Africa: EKC and Regional Integration_* #h(1fr) *Supervisor*: _Prof. Deepika Goel_ \
 This thesis examines the existence of a long-term relationship between Carbon Emissions and Regional Integration for Africa, an empirical effort to map out sustainable developmental and collaborative pathways for the continent. \
-- Scored Outstanding (10/10 for both semesters)
-- Presented at Undergraduate Research and Entrepreneurship Exhibition 2026 (UGREE 2026, University of Delhi)])
+- Scored Outstanding (10/10 for both semesters).
+- Presented at Undergraduate Research and Entrepreneurship Exhibition 2026 (UGREE 2026, University of Delhi.)])
 
 #section("Work Experience")
 #entry([Mutual Funds Distributor (Self-Employed), Delhi, India],
