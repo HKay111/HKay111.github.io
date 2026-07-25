@@ -1,4 +1,4 @@
-#set page(paper: "a4", margin: (x: 0.85cm, y: 1.6cm))
+#set page(paper: "a4", margin: (x: 0.85cm, y: 1.4cm))
 #set text(font: ("New Computer Modern"), size: 10.75pt)
 #set par(justify: true, leading: 0.65em, spacing: 1.2em)
 #show link: set text(fill: blue)
@@ -34,7 +34,7 @@
 [Bachelor's Degree in Economics, Minor in Mathematics #h(1fr) *GPA:* _First Class with Distinction_])
 
 #section("Research Interests")
-#pad(left:10pt, right:5pt)[Environmental Economics, Ecological Economics, Climate Change, Applied Econometrics, Microeconometrics.]
+#pad(left:10pt, right:5pt)[Environmental Economics, Ecological Economics, Climate Change, Evolutionary Game Theory, Economic Geography.]
 
 #section("Research Experience")
 #entry([Undergraduate Thesis],
