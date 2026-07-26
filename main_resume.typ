@@ -33,6 +33,10 @@
 [2022–2026],
 [Bachelor's Degree in Economics, Minor in Mathematics #h(1fr) *GPA:* _First Class with Distinction_])
 
+#entry([Toulouse School of Economics],
+[2026-2028],
+[Masters in Economics #h(1fr)])
+
 #section("Research Interests")
 #pad(left:10pt, right:5pt)[Environmental Economics, Ecological Economics, Climate Change, Evolutionary Game Theory, Economic Geography.]
 
@@ -73,10 +77,6 @@ This thesis examines the existence of a long-term relationship between Carbon Em
 #entry([Editor-in-Chief, Mind Over Matter (Economics Society), Aryabhatta College],
 [Oct 2024 - Aug 2025],
 [Led the editorial team, managing content strategy, publication processes, and project communications.])
-
-#entry([Social Media Manager, Arahata (B.A. Programme Society), Aryabhatta College],
-[Nov 2024 - May 2025],
-[Managed society's online presence & communication strategies to enhance outreach & engagement.])
 
 #entry([Treasurer, Arahata (B.A. Programme Society), Aryabhatta College],
 [Oct 2023 - Oct 2024],
