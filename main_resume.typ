@@ -31,7 +31,7 @@
 #section("Education")
 #entry([Aryabhatta College, University of Delhi],
 [2022–2026],
-[Bachelor's Degree in Economics, Minor in Mathematics #h(1fr) *GPA:* _First Class with Distinction_])
+[Bachelor's Degree in Economics, Minor in Mathematics])
 
 #entry([Toulouse School of Economics],
 [2026-2028],
