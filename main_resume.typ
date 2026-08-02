@@ -35,7 +35,7 @@
 
 #entry([Toulouse School of Economics],
 [2026-2028],
-[Masters in Economics #h(1fr)])
+[Masters in Applied Economics #h(1fr)])
 
 #section("Research Interests")
 #pad(left:10pt, right:5pt)[Environmental Economics, Ecological Economics, Climate Change, Evolutionary Game Theory, Economic Geography.]
