@@ -38,7 +38,7 @@
 [Masters in Applied Economics #h(1fr)])
 
 #section("Research Interests")
-#pad(left:10pt, right:5pt)[Environmental Economics, Ecological Economics, Climate Change, Evolutionary Game Theory, Economic Geography.]
+#pad(left:10pt, right:5pt)[Environmental Economics, Ecological Economics, Climate Change, Evolutionary Game Theory, Economic Geography, Energy Economics.]
 
 #section("Research Experience")
 #entry([Undergraduate Thesis],
@@ -54,6 +54,9 @@ This thesis examines the existence of a long-term relationship between Carbon Em
 [Advise clients on mutual fund investments based on financial goals & risk assessment.])
 
 #section("Projects")
+#entry([Two-Period Cartel-Fringe Resource Model (Julia/JuMP) (#link("https://github.com/HKay111/Cartel-Fringe-Model/tree/main")[Github])],
+[],
+[Implemented and solved a Salant (1976)/Hotelling (1931) resource-extraction model with a cartel and competitive fringe, enforcing fringe behavior as an equilibrium constraint.])
 #entry([VAR Modeling of Macroeconomic Data (R) (#link("https://github.com/HKay111/Macroeconomic-Analysis-R")[GitHub])],
 [],
 [Modeled short-run dynamics between exchange rate, inflation, & output gap using a Vector Autoregression (VAR) model with robust inference.])
@@ -61,10 +64,6 @@ This thesis examines the existence of a long-term relationship between Carbon Em
 #entry([Econometric Analysis of INR and Exchange Rate (R) (#link("https://github.com/HKay111/IGD-Project")[GitHub])],
 [],
 [Investigated Consumer Price Index & Output Gap impact on INR exchange rate using R time series models; analyzed policy implications.])
-
-#entry([QS Rankings Analysis (Tableau) (#link("https://public.tableau.com/app/profile/hridayam.kapila/vizzes")[Tableau Public])],
-[],
-[Created interactive Tableau dashboard visualizing & analyzing university ranking data.])
 
 #section("Position of Responsibility")
 #entry([Co-Founder & VP, Placement Unit (Economics Dept.), Aryabhatta College], [Sept 2025 - Apr 2026],
@@ -77,10 +76,6 @@ This thesis examines the existence of a long-term relationship between Carbon Em
 #entry([Editor-in-Chief, Mind Over Matter (Economics Society), Aryabhatta College],
 [Oct 2024 - Aug 2025],
 [Led the editorial team, managing content strategy, publication processes, and project communications.])
-
-#entry([Treasurer, Arahata (B.A. Programme Society), Aryabhatta College],
-[Oct 2023 - Oct 2024],
-[Managed society finances: budget planning, fund allocation, expense tracking, & financial records.])
 
 #section("Skills")
 #pad(left:10pt)[*Languages:* Hindi (Native), English (Fluent) \
