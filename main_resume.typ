@@ -79,4 +79,4 @@ This thesis examines the existence of a long-term relationship between Carbon Em
 
 #section("Skills")
 #pad(left:10pt)[*Languages:* Hindi (Native), English (Fluent) \
-*Technical Skills:* R, STATA, EViews, Tableau, LaTeX, Git/GitHub, Excel, Typst.]
+*Technical Skills:* R, STATA, EViews, Tableau, LaTeX, Git/GitHub, Excel, Typst, Julia (JuMP).]
