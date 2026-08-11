@@ -54,9 +54,9 @@ This thesis examines the existence of a long-term relationship between Carbon Em
 [Advise clients on mutual fund investments based on financial goals & risk assessment.])
 
 #section("Projects")
-#entry([Two-Period Cartel-Fringe Resource Model (Julia/JuMP) (#link("https://github.com/HKay111/Cartel-Fringe-Model/tree/main")[Github])],
+#entry([Cartel-Fringe Resource Model (Julia/JuMP) (#link("https://github.com/HKay111/Cartel-Fringe-Model")[GitHub])],
 [],
-[Implemented and solved a Salant (1976)/Hotelling (1931) resource-extraction model with a cartel and competitive fringe, enforcing fringe behavior as an equilibrium constraint.])
+[Implemented a Salant (1976)/Hotelling (1931) resource-extraction model with a cartel and competitive fringe, then extended it to T periods with a corner-correct complementarity fringe — fixing the equality constraint's shut-down failure. Carbon-tax experiments reproduce the green-paradox channel: a rising tax path increases early extraction.])
 #entry([VAR Modeling of Macroeconomic Data (R) (#link("https://github.com/HKay111/Macroeconomic-Analysis-R")[GitHub])],
 [],
 [Modeled short-run dynamics between exchange rate, inflation, & output gap using a Vector Autoregression (VAR) model with robust inference.])
