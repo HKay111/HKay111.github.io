@@ -34,7 +34,7 @@
 [Bachelor's Degree in Economics, Minor in Mathematics])
 
 #entry([Toulouse School of Economics],
-[2026-2027],
+[2026-2028],
 [Masters in Applied Economics #h(1fr)])
 
 #section("Research Interests")
