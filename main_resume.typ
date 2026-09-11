@@ -24,7 +24,7 @@
 
 #align(center)[
   #text(size: 17pt, weight: "bold")[HRIDAYAM KAPILA] \
-  #link("mailto:kapilahridayam@gmail.com")[kapilahridayam\@gmail.com] $dot$ #link("https://www.linkedin.com/in/hridayam-kapila-323987266/")[LinkedIn] $dot$ #link("https://hkay111.github.io/")[Website] \
+  #link("mailto:kapilahridayam@gmail.com")[kapilahridayam\@gmail.com] $dot$ #link("https://www.linkedin.com/in/hridayam-kapila-hkay")[LinkedIn] $dot$ #link("https://hkay111.github.io/")[Website] \
 *ORCID*: 0009-0006-8532-163X
 ]
 
@@ -34,7 +34,7 @@
 [Bachelor's Degree in Economics, Minor in Mathematics])
 
 #entry([Toulouse School of Economics],
-[2026-2028],
+[2026-2027],
 [Masters in Applied Economics #h(1fr)])
 
 #section("Research Interests")
