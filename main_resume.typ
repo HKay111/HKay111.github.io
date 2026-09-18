@@ -39,6 +39,8 @@
 [2022–2026],
 [B.A. (Honours with Research) in Economics, Minor in Mathematics])
 
+#pad(left:10pt, right:5pt)[*Selected coursework:* Advanced Econometrics, Causal Inference, Optimization Methods, Real Analysis.]
+
 #section("Research Interests")
 #pad(left:10pt, right:5pt)[Environmental Economics, Energy Economics, Ecological Economics, Climate Change, Applied Econometrics, Economic Geography.]
 
@@ -46,21 +48,17 @@
 #entry([Undergraduate Thesis],
 [Aug 2025 – May 2026],
 [*_Carbon Emissions in Africa: EKC and Regional Integration_* #h(1fr) *Supervisor*: _Prof. Deepika Goel_ \
-This thesis examines the long-term relationship between carbon emissions and regional integration in Africa. \
-- Scored Outstanding (10/10) in both semesters.])
-
-#section("Presentations")
-#entry([Carbon Emissions in Africa: EKC and Regional Integration],
-[April 2026],
-[Undergraduate Research and Entrepreneurship Exhibition (UGREE), University of Delhi.])
+Nine-country panel (2006–2022) using fully modified OLS. Trade openness and regional value chains were associated with higher consumption-based emissions, while environmental cooperation and institutional integration were associated with lower emissions; the income–emissions relationship was U-shaped rather than the usual inverted U. \
+- Scored Outstanding (10/10) in both semesters.
+- Presented at Undergraduate Research and Entrepreneurship Exhibition 2026 (UGREE 2026), University of Delhi.])
 
 #section("Projects")
 #entry([Cartel-Fringe Resource Model (Julia/JuMP) (#link("https://github.com/HKay111/Cartel-Fringe-Model")[GitHub])],
 [],
-[Built a T-period resource-extraction model in the Salant (1976)/Hotelling (1931) tradition using Julia/JuMP. Added a complementarity formulation for fringe supply and simulated how alternative carbon-tax paths affect extraction timing.])
+[Built a T-period resource-extraction model in the Salant (1976)/Hotelling (1931) tradition using Julia/JuMP, with a complementarity formulation for fringe supply and carbon-tax path simulations.])
 #entry([INR/USD Macroeconomic Analysis: OLS and VAR (R) (#link("https://github.com/HKay111/IGD-Project")[OLS] | #link("https://github.com/HKay111/Macroeconomic-Analysis-R")[VAR])],
 [],
-[Analyzed monthly INR/USD movements, inflation, and industrial activity in R. Rebuilt the original levels OLS (127 observations) as a stationary specification after unit-root diagnostics, and extended the work into a VAR of exchange-rate and inflation changes with the IIP growth cycle (75 observations). Used ADF/KPSS and bootstrap unit-root tests, ARDL bounds tests, block Granger tests, and Newey-West inference.])
+[Analyzed monthly INR/USD movements, inflation, and industrial activity in R. Rebuilt the levels OLS (127 observations) on stationary variables after unit-root diagnostics (ADF/KPSS), then estimated a VAR with the IIP growth cycle (75 observations) using ARDL bounds, block Granger, and Newey-West tests.])
 
 #section("Skills")
 #pad(left:10pt)[*Languages:* Hindi (Native), English (Fluent) \
