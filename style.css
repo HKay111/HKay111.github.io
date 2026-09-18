@@ -142,6 +142,11 @@ h3 {
   white-space: nowrap;
 }
 
+.project-links {
+  display: flex;
+  gap: 0.12in;
+}
+
 .project-desc {
   margin-top: 0.03in;
   font-size: 10.5pt;
@@ -259,6 +264,10 @@ h3 {
 
   .project-header {
     flex-direction: column;
+  }
+
+  .project-links {
+    flex-wrap: wrap;
   }
 
   .orcid-line {

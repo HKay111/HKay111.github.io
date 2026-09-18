@@ -37,41 +37,41 @@
 [2022–2026],
 [B.A. (Hons. with Research) in Economics, Minor in Mathematics])
 
+#pad(left:10pt, right:5pt)[*Selected coursework:* Advanced Econometrics, Introduction to Causal Inference, Optimization Methods for Economic Analysis, Environmental Economics, Forecasting Methods for Economics, Real Analysis.]
+
 #section("Research Interests")
-#pad(left:10pt, right:5pt)[Environmental Economics, Energy Economics, Ecological Economics, Climate Change, Applied Econometrics, Evolutionary Game Theory, Economic Geography.]
+#pad(left:10pt, right:5pt)[Environmental Economics, Energy Economics, Ecological Economics, Climate Change, Applied Econometrics, Economic Geography.]
 
 #section("Research Experience")
 #entry([Undergraduate Thesis],
 [Aug 2025 – May 2026],
 [*_Carbon Emissions in Africa: EKC and Regional Integration_* #h(1fr) *Supervisor*: _Prof. Deepika Goel_ \
 This thesis examines the long-term relationship between carbon emissions and regional integration in Africa. \
-- Scored Outstanding (10/10) in both semesters.
-- Presented at the Undergraduate Research and Entrepreneurship Exhibition 2026 (UGREE 2026), University of Delhi.])
+- Scored Outstanding (10/10) in both semesters.])
+
+#section("Presentations")
+#entry([Carbon Emissions in Africa: EKC and Regional Integration],
+[April 2026],
+[Undergraduate Research and Entrepreneurship Exhibition (UGREE), University of Delhi.])
 
 #section("Projects")
 #entry([Cartel-Fringe Resource Model (Julia/JuMP) (#link("https://github.com/HKay111/Cartel-Fringe-Model")[GitHub])],
 [],
 [Built a T-period resource-extraction model in the Salant (1976)/Hotelling (1931) tradition using Julia/JuMP. Added a complementarity formulation for fringe supply and simulated how alternative carbon-tax paths affect extraction timing.])
-#entry([VAR Modeling of Macroeconomic Data (R) (#link("https://github.com/HKay111/Macroeconomic-Analysis-R")[GitHub])],
+#entry([INR/USD Macroeconomic Analysis: OLS and VAR (R) (#link("https://github.com/HKay111/IGD-Project")[OLS] | #link("https://github.com/HKay111/Macroeconomic-Analysis-R")[VAR])],
 [],
-[Modeled short-run dynamics among the exchange rate, inflation, and output gap using a vector autoregression (VAR) model with robust inference.])
-
-#entry([Econometric Analysis of INR and Exchange Rate (R) (#link("https://github.com/HKay111/IGD-Project")[GitHub])],
-[],
-[Investigated how the Consumer Price Index and output gap relate to the INR exchange rate using time-series models in R and analyzed the policy implications.])
-
-#section("Leadership and Service")
-#entry([Co-Founder & VP, Placement Unit (Economics Dept.), Aryabhatta College], [Sept 2025 – Apr 2026],
-[Established and led the unit to connect economics students with internship and career opportunities.])
-
-#entry([Advisor, Mind Over Matter (Economics Society), Aryabhatta College],
-[Aug 2025 – Apr 2026],
-[Provided strategic guidance and mentorship to the editorial board.])
-
-#entry([Editor-in-Chief, Mind Over Matter (Economics Society), Aryabhatta College],
-[Oct 2024 – Aug 2025],
-[Led the editorial team, managing content strategy, publication processes, and project communications.])
+[Analyzed monthly INR/USD movements, inflation, and industrial activity in R. Rebuilt the original levels OLS (127 observations) as a stationary specification after unit-root diagnostics, and extended the work into a VAR of exchange-rate and inflation changes with the IIP growth cycle (75 observations). Used ADF/KPSS and bootstrap unit-root tests, ARDL bounds tests, block Granger tests, and Newey-West inference.])
 
 #section("Skills")
 #pad(left:10pt)[*Languages:* Hindi (Native), English (Fluent) \
 *Technical Skills:* R, Stata, EViews, Tableau, LaTeX, Git/GitHub, Excel, Typst, Julia (JuMP), Numerical Optimization.]
+
+#section("Leadership and Service")
+#entry([Vice President, Placement Unit, Department of Economics], [Sep 2025 – Apr 2026],
+[_Aryabhatta College, University of Delhi_ \
+Established and led the unit to connect economics students with internship and career opportunities.])
+
+#entry([Editor-in-Chief, Mind Over Matter (Economics Society)],
+[Oct 2024 – Aug 2025],
+[_Aryabhatta College, University of Delhi_ \
+Led the editorial team, managing content strategy, publication processes, and project communications.])
