@@ -33,11 +33,11 @@
 [2026–Present],
 [M1 Applied Economics])
 
+#pad(left:10pt, right:5pt)[*Current coursework:* Game Theory, Theory of Incentives, Applied Econometrics, Intermediate Econometrics, R Programming, Environmental Economics, Markov Chains.]
+
 #entry([Aryabhatta College, University of Delhi],
 [2022–2026],
-[B.A. (Honors with Research) in Economics, Minor in Mathematics])
-
-#pad(left:10pt, right:5pt)[*Selected coursework:* Advanced Econometrics, Introduction to Causal Inference, Optimization Methods for Economic Analysis, Environmental Economics, Forecasting Methods for Economics, Real Analysis.]
+[B.A. (Honours with Research) in Economics, Minor in Mathematics])
 
 #section("Research Interests")
 #pad(left:10pt, right:5pt)[Environmental Economics, Energy Economics, Ecological Economics, Climate Change, Applied Econometrics, Economic Geography.]
