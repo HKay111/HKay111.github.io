@@ -1,6 +1,6 @@
 #set page(paper: "a4", margin: (x: 0.85cm, y: 1.4cm))
 #set text(font: ("New Computer Modern"), size: 10.75pt)
-#set par(justify: true, leading: 0.65em, spacing: 1.2em)
+#set par(justify: true, leading: 0.69em, spacing: 1.25em)
 #show link: set text(fill: blue)
 
 #let section(title) = [
@@ -48,7 +48,7 @@
 #entry([Undergraduate Thesis],
 [Aug 2025 – May 2026],
 [*_Carbon Emissions in Africa: EKC and Regional Integration_* #h(1fr) *Supervisor*: _Prof. Deepika Goel_ \
-Nine-country panel (2006–2022) using fully modified OLS. Trade openness and regional value chains were associated with higher consumption-based emissions, while environmental cooperation and institutional integration were associated with lower emissions; the income–emissions relationship was U-shaped rather than the usual inverted U. \
+Panel of nine African countries (2006–2022). Paper 1 uses fully modified OLS and finds trade openness and regional value chains positively associated with consumption-based emissions, while environmental cooperation and institutional integration are negatively associated with emissions. Paper 2 finds a U-shaped income–emissions pattern, not the conventional inverted U. \
 - Scored Outstanding (10/10) in both semesters.
 - Presented at Undergraduate Research and Entrepreneurship Exhibition 2026 (UGREE 2026), University of Delhi.])
 
