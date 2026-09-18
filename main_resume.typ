@@ -33,7 +33,7 @@
 [2026–Present],
 [M1 Applied Economics])
 
-#pad(left:10pt, right:5pt)[*Current coursework:* Game Theory, Theory of Incentives, Applied Econometrics, Intermediate Econometrics, R Programming, Environmental Economics, Markov Chains.]
+#pad(left:10pt, right:5pt)[*Current coursework:* Game Theory, Intermediate Econometrics, R Programming, Environmental Economics, Markov Chains.]
 
 #entry([Aryabhatta College, University of Delhi],
 [2022–2026],
