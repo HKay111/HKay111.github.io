@@ -35,7 +35,7 @@
 
 #entry([Aryabhatta College, University of Delhi],
 [2022–2026],
-[B.A. (Hons. with Research) in Economics, Minor in Mathematics])
+[B.A. (Honors with Research) in Economics, Minor in Mathematics])
 
 #pad(left:10pt, right:5pt)[*Selected coursework:* Advanced Econometrics, Introduction to Causal Inference, Optimization Methods for Economic Analysis, Environmental Economics, Forecasting Methods for Economics, Real Analysis.]
 
