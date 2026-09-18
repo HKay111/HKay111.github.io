@@ -64,7 +64,7 @@ Panel of nine African countries (2006–2022). Paper 1 uses fully modified OLS a
 #pad(left:10pt)[*Languages:* Hindi (Native), English (Fluent) \
 *Technical Skills:* R, Stata, EViews, Tableau, LaTeX, Git/GitHub, Excel, Typst, Julia (JuMP), Numerical Optimization.]
 
-#section("Leadership and Service")
+#section("Leadership")
 #entry([Vice President, Placement Unit, Department of Economics], [Sep 2025 – Apr 2026],
 [_Aryabhatta College, University of Delhi_ \
 Established and led the unit to connect economics students with internship and career opportunities.])
