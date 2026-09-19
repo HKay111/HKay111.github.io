@@ -49,9 +49,10 @@ M1 student in Applied Economics at Toulouse School of Economics and economics gr
 
 #entry([Aryabhatta College, University of Delhi],
 [2022–2026],
-[B.A. (Honours with Research) in Economics, Minor in Mathematics])
+[B.A. (Honours with Research) in Economics, Minor in Mathematics (First Class with Distinction)])
 
-#pad(left:10pt, right:5pt)[*Relevant coursework:* Intermediate Microeconomics and Macroeconomics I and II, Environmental Economics, Optimization Methods for Economic Analysis, Basic Econometrics, Advanced Econometrics, Introduction to Causal Inference, Forecasting Methods for Economics, Topics in Calculus, Elementary Linear Algebra, Differential Equations, Abstract Algebra, Real Analysis, Probability and Statistics.]
+#pad(left:10pt, right:5pt)[*Economics:* Intermediate Microeconomics and Macroeconomics I and II, Environmental Economics, Optimization Methods for Economic Analysis, Basic Econometrics, Advanced Econometrics, Introduction to Causal Inference, Forecasting Methods for Economics. \
+*Mathematics:* Topics in Calculus, Elementary Linear Algebra, Differential Equations, Abstract Algebra, Real Analysis, Probability and Statistics.]
 
 #section("Research Interests")
 #pad(left:10pt, right:5pt)[Environmental Economics, Energy Economics, Ecological Economics, Climate Change, Applied Econometrics, Economic Geography.]
