@@ -37,7 +37,7 @@
 
 #section("Profile")
 #pad(left:10pt, right:5pt)[
-M1 student in Applied Economics at Toulouse School of Economics and economics graduate of Aryabhatta College, University of Delhi. Targeting pre-doctoral research positions and PhD programs in environmental and resource economics and sustainable development, with interests in climate policy, energy transitions, and applied econometrics.
+M1 student in Applied Economics at Toulouse School of Economics and economics graduate of Aryabhatta College, University of Delhi. Targeting pre-doctoral research positions and PhD programs in environmental and resource economics and sustainable development, with interests in conservation, bioeconomics, and quantitative modeling.
 ]
 
 #section("Education")
@@ -45,7 +45,7 @@ M1 student in Applied Economics at Toulouse School of Economics and economics gr
 [2026–Present],
 [M1 Applied Economics])
 
-#pad(left:10pt, right:5pt)[*Current coursework:* Game Theory, Intermediate Econometrics, R Programming, Environmental Economics, Markov Chains.]
+#pad(left:10pt, right:5pt)[*Current coursework:* Game Theory, Macroeconomics, Intermediate Econometrics, R Programming, Environmental Economics, Markov Chains.]
 
 #entry([Aryabhatta College, University of Delhi],
 [2022–2026],
@@ -55,7 +55,12 @@ M1 student in Applied Economics at Toulouse School of Economics and economics gr
 *Mathematics:* Topics in Calculus, Elementary Linear Algebra, Differential Equations, Abstract Algebra, Real Analysis, Probability and Statistics.]
 
 #section("Research Interests")
-#pad(left:10pt, right:5pt)[Environmental Economics, Energy Economics, Ecological Economics, Climate Change, Applied Econometrics, Economic Geography.]
+#pad(left:10pt, right:5pt)[Environmental Economics, Ecological Economics, Bioeconomics, Conservation, Climate Change, Applied Econometrics, Economic Geography.]
+
+#block(breakable: false)[
+  #section("Papers under Review")
+  #pad(left:10pt, right:5pt)[- Regional Integration and Carbon Emissions in Africa: The Role of Value Chains, Environmental Cooperation, and Institutional Integration. Under review at _Environment Systems and Decisions_ (2026).]
+]
 
 #section("Research Experience")
 #entry([Undergraduate Thesis],
@@ -103,7 +108,7 @@ The thesis studies the long-run relationship between carbon emissions and region
 ]
 
 #section("Skills")
-#pad(left:10pt)[*Languages:* Hindi (Native), English (Fluent), French (Elementary) \
+#pad(left:10pt)[*Languages:* Hindi (Native), English (Fluent), Punjabi (Elementary), French (Elementary) \
 *Technical Skills:* R, Stata, EViews, Tableau, LaTeX, Git/GitHub, Excel, Typst, Julia (JuMP), Numerical Optimization.]
 
 #section("Leadership")
