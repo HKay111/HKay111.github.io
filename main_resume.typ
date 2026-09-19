@@ -1,6 +1,6 @@
-#set page(paper: "a4", margin: (x: 0.85cm, y: 1.4cm))
+#set page(paper: "a4", margin: (x: 0.85cm, y: 1.3cm))
 #set text(font: ("New Computer Modern"), size: 10.75pt)
-#set par(justify: true, leading: 0.69em, spacing: 1.25em)
+#set par(justify: true, leading: 0.65em, spacing: 1.18em)
 #show link: set text(fill: blue)
 
 #let section(title) = [
@@ -33,7 +33,9 @@
 [2026–Present],
 [M1 Applied Economics])
 
-#pad(left:10pt, right:5pt)[*Current coursework:* Game Theory, Intermediate Econometrics, R Programming, Environmental Economics, Markov Chains.]
+#pad(left:10pt, right:5pt)[*Current coursework:* Game Theory, Macroeconomics, Intermediate Econometrics, R Programming, Environmental Economics, Markov Chains.]
+
+#pad(left:10pt, right:5pt)[*Awarded a fee waiver for 2026–2027.*]
 
 #entry([Aryabhatta College, University of Delhi],
 [2022–2026],
@@ -42,13 +44,14 @@
 #pad(left:10pt, right:5pt)[*Selected coursework:* Advanced Econometrics, Causal Inference, Optimization Methods, Real Analysis.]
 
 #section("Research Interests")
-#pad(left:10pt, right:5pt)[Environmental Economics, Energy Economics, Ecological Economics, Climate Change, Applied Econometrics, Economic Geography.]
+#pad(left:10pt, right:5pt)[Environmental Economics, Ecological Economics, Bioeconomics, Conservation, Climate Change, Applied Econometrics, Economic Geography.]
 
 #section("Research Experience")
 #entry([Undergraduate Thesis],
 [Aug 2025 – May 2026],
 [*_Carbon Emissions in Africa: EKC and Regional Integration_* #h(1fr) *Supervisor*: _Prof. Deepika Goel_ \
 Panel of nine African countries (2006–2022). Paper 1 uses fully modified OLS and finds trade openness and regional value chains positively associated with consumption-based emissions, while environmental cooperation and institutional integration are negatively associated with emissions. Paper 2 finds a U-shaped income–emissions pattern, not the conventional inverted U. \
+- Paper 1 under review at _Environment Systems and Decisions_.
 - Scored Outstanding (10/10) in both semesters.
 - Presented at Undergraduate Research and Entrepreneurship Exhibition 2026 (UGREE 2026), University of Delhi.])
 
@@ -61,7 +64,7 @@ Panel of nine African countries (2006–2022). Paper 1 uses fully modified OLS a
 [Analyzed monthly INR/USD movements, inflation, and industrial activity in R. Rebuilt the levels OLS (127 observations) on stationary variables after unit-root diagnostics (ADF/KPSS), then estimated a VAR with the IIP growth cycle (75 observations) using ARDL bounds, block Granger, and Newey-West tests.])
 
 #section("Skills")
-#pad(left:10pt)[*Languages:* Hindi (Native), English (Fluent) \
+#pad(left:10pt)[*Languages:* Hindi (Native), English (Fluent), Punjabi (Elementary), French (Elementary) \
 *Technical Skills:* R, Stata, EViews, Tableau, LaTeX, Git/GitHub, Excel, Typst, Julia (JuMP), Numerical Optimization.]
 
 #section("Leadership")
