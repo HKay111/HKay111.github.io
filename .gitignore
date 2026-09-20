@@ -8,3 +8,7 @@ texput.log
 *.aux
 *.out
 *.log
+
+# Local-only CV (not part of the published site)
+soft_skills_cv.typ
+soft_skills_cv.pdf
