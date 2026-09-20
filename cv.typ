@@ -1,13 +1,13 @@
 #set page(
   paper: "a4",
-  margin: (x: 0.85cm, y: 1.4cm),
+  margin: (x: 0.85cm, y: 1.5cm),
   footer: context {
     set text(size: 9pt)
     align(center)[#counter(page).display("1 / 1", both: true)]
   },
 )
 #set text(font: ("New Computer Modern"), size: 10.75pt)
-#set par(justify: true, leading: 0.72em, spacing: 1.28em)
+#set par(justify: true, leading: 0.76em, spacing: 1.38em)
 #show link: set text(fill: blue)
 
 #let section(title) = [
@@ -102,6 +102,12 @@ The thesis studies the long-run relationship between carbon emissions and region
 - TOEFL iBT: 108/120 (C1), ETS (2025)
 - Data Science Professional Certificate, Harvard Online (2024)
 - CS50's Introduction to Programming with Python, HarvardX/edX (2024)
+- Introduction to Data Science with Python, edX (2024)
+- Learning Python for Data Science, Harvard Online (2024)
+- Fat Chance: Probability from the Ground Up, edX (2024)
+- Logic for Economists, University of Amsterdam (2024)
+- Introduction to Economic Theories, Erasmus University Rotterdam (2023)
+- SQL for Beginners, Udemy (2024)
 - Statistics and Data Analysis using R, University of Delhi (2025)
 - Fundamentals of Visualization with Tableau, UC Davis (2024)
 - NISM Certification (Mutual Funds), National Institute of Securities Markets (2024)
