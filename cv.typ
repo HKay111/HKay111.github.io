@@ -71,10 +71,12 @@ The thesis studies the long-run relationship between carbon emissions and region
 *Paper 2* tests for an Environmental Kuznets Curve with a group-mean fully modified OLS estimator. It finds a long-run cointegrating relationship with heterogeneous slopes and a U-shaped income–emissions pattern instead of the conventional inverted U, with an almost one-to-one elasticity between energy use and emissions per capita.
 ])
 
-#section("Presentations")
-#entry([Carbon Emissions in Africa: EKC and Regional Integration],
-[April 2026],
-[Undergraduate Research and Entrepreneurship Exhibition (UGREE) 2026, University of Delhi.])
+#block(breakable: false)[
+  #section("Presentations")
+  #entry([Carbon Emissions in Africa: EKC and Regional Integration],
+  [April 2026],
+  [Undergraduate Research and Entrepreneurship Exhibition (UGREE) 2026, University of Delhi.])
+]
 
 #block(breakable: false)[
   #section("Projects")
