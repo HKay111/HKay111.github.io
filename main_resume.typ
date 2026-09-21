@@ -51,7 +51,6 @@
 [Aug 2025 – May 2026],
 [*_Carbon Emissions in Africa: EKC and Regional Integration_* #h(1fr) *Supervisor*: _Prof. Deepika Goel_ \
 Panel of nine African countries (2006–2022). Paper 1 uses fully modified OLS and finds trade openness and regional value chains positively associated with consumption-based emissions, while environmental cooperation and institutional integration are negatively associated with emissions. Paper 2 finds a U-shaped income–emissions pattern, not the conventional inverted U. \
-- Paper 1 under review at _Environment Systems and Decisions_.
 - Scored Outstanding (10/10) in both semesters.
 - Presented at Undergraduate Research and Entrepreneurship Exhibition 2026 (UGREE 2026), University of Delhi.])
 

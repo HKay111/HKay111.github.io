@@ -57,11 +57,6 @@ M1 student in Applied Economics at Toulouse School of Economics and economics gr
 #section("Research Interests")
 #pad(left:10pt, right:5pt)[Environmental Economics, Ecological Economics, Bioeconomics, Conservation, Climate Change, Applied Econometrics, Economic Geography.]
 
-#block(breakable: false)[
-  #section("Papers under Review")
-  #pad(left:10pt, right:5pt)[- Regional Integration and Carbon Emissions in Africa: The Role of Value Chains, Environmental Cooperation, and Institutional Integration. Under review at _Environment Systems and Decisions_ (2026).]
-]
-
 #section("Research Experience")
 #entry([Undergraduate Thesis],
 [Aug 2025 – May 2026],
